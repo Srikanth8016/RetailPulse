@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets (CRITICAL FOR CLOUD SECURITY)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+
+# GCP Service Account Keys & Credentials
+*credentials*.json
+*sa*.json
+*service_account*.json
+gcp-key*.json
+client_secrets.json
+auth_token.json
+infrastructure/secrets/*.json
+.gcp/
+
+# Local data & raw files (prevent committing large datasets)
+data/raw/*
+data/processed/*
+data/staging/*
+data/temp/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/staging/.gitkeep
+!data/temp/.gitkeep
+*.csv
+*.parquet
+*.avro
+*.jsonl
+
+# dbt artifacts
+dbt_packages/
+logs/
+target/
+dbt.log
+
+# Apache Airflow
+airflow.cfg
+unittests.cfg
+airflow/logs/
+airflow/airflow-webserver.pid
+
+# Docker & Container artifacts
+*.log
+docker-compose.override.yml
+
+# Terraform (if infrastructure as code is used)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# IDEs and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,17 @@
+# ==============================================================================
+# RetailPulse Data Engineering Platform - Project Dependencies
+# ==============================================================================
+# Python Version: >= 3.12
+# ==============================================================================
+
+# Core Database & Connectivity (PostgreSQL)
+psycopg[binary]>=3.1.18
+
+# Configuration & Environment Management
+python-dotenv>=1.0.1
+
+# Google Cloud Platform SDKs
+google-cloud-storage>=2.14.0
+
+# Synthetic Data Generation & Testing
+Faker>=24.0.0

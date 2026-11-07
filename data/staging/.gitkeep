@@ -1,0 +1,2 @@
+# Staging directory for batch ingestion CSV files before uploading to GCS.
+# All data files in this directory are ignored by git.
